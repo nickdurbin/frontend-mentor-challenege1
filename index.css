@@ -2,25 +2,103 @@
   box-sizing: border-box;
 }
 
-body {
-  max-width: 320px;
-  margin: 0 auto;
+html, body {
+  height: 100%;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  line-height: 1.5;
 }
 
 .main-container {
-  width: 100%;
+  min-width: 376px;
   height: auto;
   margin: 40px 15px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
+header {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: auto;
+  padding: 25px;
 }
-    
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+
+header h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+header p {
+  color: hsl(218, 22%, 67%);
+}
+
+.main-content {
+  border-bottom: 1px solid black;
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.dollar {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.p-element {
+  color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  width: 90%;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bottom-content {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.5;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color: hsl(204, 43%, 93%);
 }
